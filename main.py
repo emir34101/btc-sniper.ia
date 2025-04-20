@@ -5,8 +5,8 @@ import time
 import telegram
 
 # Configura tu bot
-TELEGRAM_TOKEN = 'TU_TOKEN'
-CHAT_ID = 'TU_CHAT_ID'
+TELEGRAM_TOKEN = '7225409536:AAGMjro9Wbif1hRJFTJBT2Y6Merf8HH5ZUg'
+CHAT_ID = '93309522'
 bot = telegram.Bot(token=TELEGRAM_TOKEN)
 
 def get_binance_data(symbol='BTCUSDT', interval='1h', limit=200):
